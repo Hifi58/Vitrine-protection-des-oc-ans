@@ -35,12 +35,12 @@ header{
     opacity: 0.5;
     margin-left: 10px;
     margin-right: 10px;
-    animation: bulles1 6s cubic-bezier(0.12, 0, 0.39, 0) 0s 1 normal forwards;
+    animation: bulles1 6s cubic-bezier(0.12, 0, 0.39, 0) 0s infinite normal forwards;
 }
 
 @keyframes bulles1 {
     0% {
-      transform: translateY(800px);
+      transform: translateY(1200px);
     }
 
     20%{
@@ -66,19 +66,19 @@ header{
   }
 
   .bubles2{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     background-color: var(--text-color);
     opacity: 0.5;
     margin-left: 10px;
     margin-right: 10px;
-    animation: bulles2 6s cubic-bezier(0.12, 0, 0.39, 0) 0s 1 normal forwards;
+    animation: bulles2 6s cubic-bezier(0.12, 0, 0.39, 0) 0s infinite normal forwards;
 }
 
 @keyframes bulles2 {
     0% {
-      transform: translateY(600px);
+      transform: translateY(1000px);
     }
 
     20%{
@@ -104,19 +104,19 @@ header{
   }
 
   .bubles3{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-color: var(--text-color);
     opacity: 0.5;
     margin-left: 10px;
     margin-right: 10px;
-    animation: bulles3 6s cubic-bezier(0.12, 0, 0.39, 0) 0s 1 normal forwards;
+    animation: bulles3 6s cubic-bezier(0.12, 0, 0.39, 0) 0s infinite normal forwards;
 }
 
 @keyframes bulles3 {
     0% {
-      transform: translateY(400px);
+      transform: translateY(800px);
     }
 
     20%{
